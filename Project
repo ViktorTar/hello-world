@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+</script>
+<style>
+#nav {
+    width: 100%;
+  	height: 75px;
+  	color: #fff;
+  	background: #333;
+  	position: fixed;
+  	display: block;
+  	text-align: center;
+  	top: 0;
+  }
+  
+  #nav .link {
+	display: block;
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 40px;
+	line-height: 65px;
+  }
+
+  #nav .unordered-list .list {
+
+  	display: inline-block;
+  	font-size: 1.5rem;
+	line-height: 1.225rem;
+  }
+
+  .footer { 
+	position: normal;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 60px;
+	padding: 0 20px;
+
+	background: #333;
+	color: orange;
+  }
+
+  .link:hover {
+ 	background: #786b59; 
+    color: #ffe;
+  } 
+
+  .section--grey {
+  	background:#F3F3F3;
+  }
+
+  .button {
+ 	font-size:1.0rem;
+ 	line-height:1.05rem;
+ 	padding:0.9375rem 1.5625rem;
+ 	/*transition: all 0.3s ease;*/
+ 	color:red;
+ 	border:2px solid red;
+ 	background:transparent;
+ 	font-weight:500;
+  }
+
+  .button:hover {
+  	background: yellow;
+  }
+
+  .section.feature {
+
+  	height: 100%;
+  	width: 100%;
+  	padding: 0;
+  	display: table;
+  	text-align:center;
+
+  }
+
+  .section {
+
+  }
+  
+  .main {
+  	height:100%;
+  	width:100%;
+  	position:absolute;
+  }
+
+  .section-home{
+  	margin-top: 75px;
+  	background-image: url("https://letsjapan.files.wordpress.com/2010/09/007.jpg");
+  	color: red;
+  	background-size: cover;
+    background-repeat:   no-repeat;
+    max-height: 100%;
+    background-position: center center;
+  }
+  
+  .footer .icons {
+  	float: right;
+  }
+
+  .article {
+  	height: 500px;
+  }
+  /*.overlay {
+  	background:#C32F34;
+  	background:rgba(195,47,52,0.8);
+  }*/
+
+</style>
+
+		<nav id="nav" role="navigation"> 
+			<ul class="unordered-list no-dots-list">
+				<li class ="list">
+					<a class="link" href="#section-home">Home</a>
+				</li>
+				<li class ="list">
+					<a class="link" href="#section-about">About</a>
+				</li>
+				<li class ="list">
+					<a class="link" href="#section-porfolio">Portfolio</a>
+				</li>
+
+				<li class ="list">
+					<a class="link" href="#section-contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main id="sections" role="main">
+            <section  class="section-home section  feature">
+                <article class="article">
+                    <header>
+                        <h1 class="">WELCOME!</h1>
+                    </header>
+					        <div class="">
+					  		
+								<p class="">Responsive Design devolepment with HTML, CSS, Javascript</p>
+								<button type="button" id="go" class="button">Read More</button>
+							</div>
+                </article>
+            </section>
+            <section id="section-about" class="section section--white">
+                <article>
+                    <header>
+                        <h2>About</h2>
+                        <p>I've had the pleasure of working with some of London’s most brilliant creative and digital agencies.</p>
+                    </header>
+
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+	<section class="section-portfolio">
+		<div class="central-container container-fluid">
+		</div>
+	</section>
+<section id="#section-contact">
+</section>
+
+	<footer class="footer">  
+		  <div class="icons">
+			   <a href="#" class="w3-hover-text-red w3-show-inline-block"><i class="fa fa-pinterest-p"></i></a>
+			   <a href="#" class="w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
+			   <a href="https://www.flickr.com/photos/142635445@N05/" class="w3-hover-text-grey w3-show-inline-block"><i class="fa fa-flickr"></i></a>
+			   <a href="https://www.linkedin.com/in/viktor-tarykin-9762a7b1?trk=nav_responsive_tab_profile_pic" class="w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
+		  </div>
+		  <div id="footer-below">
+		  	<p>Viktor Tarykin © 2016. All Rights Reversed<p>
+          </div>
+	 
+	</footer>
+</main>
+</html>
